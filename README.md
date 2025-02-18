@@ -1,30 +1,13 @@
-# React + TypeScript + Vite
+# URL Health Dashboard
+## Internet Connection Testing Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Create a modern dashboard interface that allows users to test website connectivity and view detailed performance metrics. The main screen features a clean, minimalist design with a prominent URL input field and real-time results display.
 
-Currently, two official plugins are available:
+Central URL testing section with a material-design input field and "Test Connection" button, displaying immediate results with response time and presence score using animated progress indicators
+Results card showing success/failure status with color-coded indicators (green/red), response time in ms, and a calculated presence score from 0-100
+Recent tests history table below the main testing area, showing timestamp, URL, status, and key metrics with the ability to sort and filter
+Responsive layout that adapts seamlessly from desktop to mobile views
+Modern, clean UI with soft shadows, rounded corners, and a light/dark theme toggle
+Consider using a loading skeleton while tests are running and smooth transitions between states to enhance user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
