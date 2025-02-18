@@ -3,7 +3,10 @@
 
 ![image](https://github.com/user-attachments/assets/2db4fc1b-2253-4a0e-bd84-f8af6f9e8d65)
 
-
+Run the following command in your project folder
+```bash
+npm install
+npm run dev
 
 Create a modern dashboard interface that allows users to test website connectivity and view detailed performance metrics. The main screen features a clean, minimalist design with a prominent URL input field and real-time results display.
 
