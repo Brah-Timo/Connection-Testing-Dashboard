@@ -1,7 +1,7 @@
 # URL Health Dashboard
 ## Internet Connection Testing Dashboard
 
-![image](https://github.com/user-attachments/assets/907c5097-ba6c-413f-8e10-5e94fefd7391)
+
 
 
 Create a modern dashboard interface that allows users to test website connectivity and view detailed performance metrics. The main screen features a clean, minimalist design with a prominent URL input field and real-time results display.
