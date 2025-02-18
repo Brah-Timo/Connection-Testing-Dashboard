@@ -7,6 +7,7 @@ Run the following command in your project folder
 ```bash
 npm install
 npm run dev
+```
 
 Create a modern dashboard interface that allows users to test website connectivity and view detailed performance metrics. The main screen features a clean, minimalist design with a prominent URL input field and real-time results display.
 
